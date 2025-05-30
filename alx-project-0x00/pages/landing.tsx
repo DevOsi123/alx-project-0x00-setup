@@ -15,7 +15,7 @@ const Landing = () => {
 
         <div className="flex gap-4 items-center">
           <Button title="Custom Rounded" size="small" shape="rounded-md" />
-          <Button title="Circle Style" size="medium" shape="rounded-full" />
+          <Button title="Circle Style" size="medium" shape="rounded-lg" />
           <Button title="Boxy" size="large" shape="rounded-sm" />
         </div>
 

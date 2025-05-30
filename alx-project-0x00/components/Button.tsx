@@ -2,10 +2,12 @@ import React from "react";
 import clsx from "clsx";
 
 
+
+
 interface ButtonProps {
   title: string;
   size?: "small" | "medium" | "large";
-  shape?: "rounded-sm" | "rounded-md" | "rounded-full";
+  shape?: "rounded-sm" | "rounded-md" | "rounded-lg";
   className?: string;
   onClick?: () => void;
 }
