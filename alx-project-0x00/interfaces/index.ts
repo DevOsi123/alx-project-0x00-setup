@@ -1,9 +1,11 @@
 export interface PillProps {
-  title: string
-  styles?:string
+  title: string;
+  styles?: string; // ✅ optional custom styles
 }
 
 export interface ButtonProps {
   title: string;
-  styles?: string;
+  size?: "small" | "medium" | "large";
+  shape?: "rounded-sm" | "rounded-md" | "rounded-full";
+  styles?: string; // ✅ optional custom styles
 }

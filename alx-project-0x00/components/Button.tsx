@@ -7,7 +7,7 @@ import clsx from "clsx";
 interface ButtonProps {
   title: string;
   size?: "small" | "medium" | "large";
-  shape?: "rounded-sm" | "rounded-md" | "rounded-lg";
+  shape?: "rounded-sm" | "rounded-md" | "rounded-full";
   className?: string;
   onClick?: () => void;
 }
