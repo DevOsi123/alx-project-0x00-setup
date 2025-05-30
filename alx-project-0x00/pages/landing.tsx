@@ -10,7 +10,7 @@ const Landing = () => {
         <div className="flex gap-4 items-center">
           <Button title="Small Button" size="small" shape="rounded-sm" />
           <Button title="Medium Button" size="medium" shape="rounded-md" />
-          <Button title="Large Button" size="large" shape="rounded-full" />
+          <Button title="Large Button" size="large" shape="rounded-lg"/>
         </div>
 
         <div className="flex gap-4 items-center">
